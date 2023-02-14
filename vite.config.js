@@ -5,8 +5,8 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/bunzo-vue-template-clone/',
   plugins: [vue()],
+  base: '/bunzo-vue-template-clone/',
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

@@ -16,47 +16,47 @@ export default {
         return {
         projects: [
             {
-                image: "./src/assets/images/home-one.jpg",
+                image: "/src/assets/images/home-one.jpg",
                 caption: "Home One",
                 alt: "Home one"
             },
             {
-                image: "./src/assets/images/home-two.jpg",
+                image: "/src/assets/images/home-two.jpg",
                 caption: "Home Two",
                 alt: "Home two"
             },
             {
-                image: "./src/assets/images/home-three.jpg",
+                image: "/src/assets/images/home-three.jpg",
                 caption: "Home Three",
                 alt: "Home three"
             },
             {
-                image: "./src/assets/images/blog.jpg",
+                image: "/src/assets/images/blog.jpg",
                 caption: "Blog",
                 alt: "Blog"
             },
             {
-                image: "./src/assets/images/blog-details.jpg",
+                image: "/src/assets/images/blog-details.jpg",
                 caption: "Blog Details",
                 alt: "Blog details"
             },
             {
-                image: "./src/assets/images/categories.jpg",
+                image: "/src/assets/images/categories.jpg",
                 caption: "Categories",
                 alt: "Categories"
             },
             {
-                image: "./src/assets/images/about.jpg",
+                image: "/src/assets/images/about.jpg",
                 caption: "About",
                 alt: "About"
             },
             {
-                image: "./src/assets/images/faq.jpg",
+                image: "/src/assets/images/faq.jpg",
                 caption: "FAQ",
                 alt: "FAQ"
             },
             {
-                image: "./src/assets/images/contact.jpg",
+                image: "/src/assets/images/contact.jpg",
                 caption: "Contact",
                 alt: "Contact"
             }

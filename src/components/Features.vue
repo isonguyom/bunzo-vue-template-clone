@@ -17,37 +17,37 @@ export default {
         return {
             features: [
                 {
-                    image: "./src/assets/images/nuxt.png",
+                    image: "/src/assets/images/nuxt.png",
                     alt: "Vue Nuxt JS",
                     caption: "Vue Nuxt JS",
                     detials: "Vue.js is a JavaScript framework that is widely popular because it is easy to use"
                 },
                 {
-                    image: "./src/assets/images/wp.png",
+                    image: "/src/assets/images/wp.png",
                     alt: "WordPress (Headless)",
                     caption: "WordPress (Headless)",
                     detials: "The headless CMS approach provides more flexibility on the back-end"
                 },
                 {
-                    image: "./src/assets/images/graphql.png",
+                    image: "/src/assets/images/graphql.png",
                     alt: "GraphQL",
                     caption: "GraphQL",
                     detials: "GraphQL is a query language for APIs queries with your existing data"
                 },
                 {
-                    image: "./src/assets/images/jamstack.png",
+                    image: "/src/assets/images/jamstack.png",
                     alt: "Jamstack",
                     caption: "Jamstack",
                     detials: "The modern way to build Websites and Apps that delivers better performance"
                 },
                 {
-                    image: "./src/assets/images/tailwind.png",
+                    image: "/src/assets/images/tailwind.png",
                     alt: "Tailwind CSS",
                     caption: "Tailwind CSS",
                     detials: "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
                 },
                 {
-                    image: "./src/assets/images/jquery.png",
+                    image: "/src/assets/images/jquery.png",
                     alt: "No jQuery",
                     caption: "No jQuery",
                     detials: "No jQuery dependency used in the template for better performance"
