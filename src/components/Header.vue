@@ -1,7 +1,7 @@
 <template>
   <header class="Header" :class="{ fixed: isFixed }">
     <figure>
-      <img :src="logo" alt="Logo">
+      <img :src="`images/${logo}`" alt="Logo">
     </figure>
     <a class="btn" href="http://">buy bunzo</a>
   </header>

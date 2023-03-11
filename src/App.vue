@@ -9,8 +9,8 @@ export default {
 
   data() {
     return {
-      main: { logo: "/src/assets/images/logo-2.png", isFixed: false },
-      fixed: { logo: "/src/assets/images/logo.png", isFixed: true }
+      main: { logo: "logo-2.png", isFixed: false },
+      fixed: { logo: "logo.png", isFixed: true }
     }
   }
 }
@@ -24,7 +24,7 @@ export default {
       <div class="welcome-text">
         <h1>Bunzo</h1>
         <p>A Powerful Jamstack Blog Solution.</p>
-        <img src="./assets/images/icon.png" alt="">
+        <img src="/images/icon.png" alt="">
       </div>
       <a class="btn" href="http://">view demo</a>
     </section>
@@ -39,7 +39,7 @@ export default {
 
 <style scoped lang="scss">
 .onboarding {
-  background: url("./assets/images/slider-landing.jpg") center;
+  background: url("/images/slider-landing.jpg") center;
   height: 120vh;
   min-height: 100vh;
   display: flex;
@@ -84,30 +84,32 @@ export default {
   .onboarding {
     height: 105vh;
   }
-.Footer p {
-  font-size: 1.5rem;
+
+  .Footer p {
+    font-size: 1.5rem;
+  }
 }
-}
+
 @media screen and (max-width: 767px) {
 
   .onboarding {
     height: 100vh;
     padding-top: 60px;
   }
-.welcome-text {
-  font-size: 1.5rem;
-  line-height: 50px;
-}
 
-.Footer {
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
+  .welcome-text {
+    font-size: 1.5rem;
+    line-height: 50px;
+  }
 
-.Footer p {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-}
-</style>
+  .Footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Footer p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+}</style>
